@@ -1,0 +1,10 @@
+public class Addition {
+    public static void main(String[] args) {
+        int num1 = 10; // Assign the first number
+        int num2 = 20; // Assign the second number
+        
+        int sum_of_numbers = num1 + num2; // Add the two numbers
+        
+        System.out.println(sum_of_numbers);
+    }
+}
