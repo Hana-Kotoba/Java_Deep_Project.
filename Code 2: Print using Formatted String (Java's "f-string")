@@ -1,0 +1,10 @@
+public class FormattedPrint {
+    public static void main(String[] args) {
+        int num1 = 10;
+        int num2 = 20;
+        int sum_of_numbers = num1 + num2;
+
+        // Using printf to mimic the f-string: print(f"The sum of {num1} and {num2} is: {sum_of_numbers}")
+        System.out.printf("The sum of %d and %d is: %d", num1, num2, sum_of_numbers);
+    }
+}
