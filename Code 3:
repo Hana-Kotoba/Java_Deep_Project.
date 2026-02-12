@@ -1,0 +1,17 @@
+package Deep_Java;
+
+public class Addition {
+    public static void main(String[] args) {
+        // Assign the first number
+        int num1 = 10; 
+        
+        // Assign the second number
+        int num2 = 20; 
+        
+        // Add the two numbers
+        int sum_of_numbers = num1 + num2; 
+        
+        // Print the result
+        System.out.println("The sum is: " + sum_of_numbers);
+    }
+}
